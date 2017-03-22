@@ -111,5 +111,12 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         print(opciones[row])
     }
     
+    
+    @IBAction func btnCancelarTouch(_ sender: UIBarButtonItem) {
+        print("presiono Cancelar")
+    }
+    
+    
+    
 }
 
